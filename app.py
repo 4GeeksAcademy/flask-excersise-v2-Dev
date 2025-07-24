@@ -1,7 +1,7 @@
 from pickle import load
 import streamlit as st
 
-model = load(open("../models/decision_tree_classifier_default_42.sav", "rb"))
+model = load(open("models/iris_model.pkl", "rb"))
 class_dict = {
     "0": "Iris setosa",
     "1": "Iris versicolor",
